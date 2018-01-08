@@ -1,0 +1,10 @@
+-[add_action('admin_init','np_news_custom_settings');] this custom setting is used inside admin creating function for the security purposes. if our admin page is not created properly then we dont have to go for custom settings.. 
+
+-custom setting is for Setting api with built-in function and hooks 
+
+-register_setting('np-news-settings-group','profile_picture');
+	this function allows us to create specific section in db in wp_options table to record the custom group of setting.
+
+	-it is better to sperate with - to setting group name and with _ to single option name
+
+
